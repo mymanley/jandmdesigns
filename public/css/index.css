@@ -1,0 +1,102 @@
+html {
+  background-color: #EEEEEE;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+header {
+  text-align: center;
+  width: 100%;
+}
+header p {
+  font-size: 2rem;
+}
+.intro {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 5px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+.overview {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.info {
+  border-radius: 7px;
+  background-color: #fff;
+  margin: 15px 0;
+}
+.info img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.info-text {
+  padding: 0 10px 5px 10px;
+}
+.about {
+  background-color: #fff;
+  padding: 5px 5%;
+  margin: 20px 0;
+}
+.about-text {
+  padding: 0 10px 20px 10px;
+
+}
+.galleries {
+  padding: 20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-top: 1px solid #E8E8E8;
+}
+.galleries h2 {
+  width: 100%;
+}
+.gallery {
+  width: 49%;
+  padding: 5px 0;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+@media only screen and (min-width: 737px) {
+  .info {
+    margin: 50px 0;
+  }
+}
+@media only screen and (min-width: 981px) {
+  .overview {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 99%;
+  }
+  .info {
+    width: 32%;
+  }
+  .about {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 40px .5%;
+  }
+  .about-text {
+    padding-left: 40px;
+    width: 70%;
+  }
+  .galleries {
+    border-top: none;
+    padding: 0;
+    width: 30%;
+  }
+}
