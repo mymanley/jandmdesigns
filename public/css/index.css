@@ -12,7 +12,10 @@ header p {
 }
 .intro {
   text-align: center;
-  background-color: #fff;
+  /*
+  background-color: #ee9998;
+  */
+  background-color: #EEEEEE;
   border-radius: 7px;
   padding: 5px 0;
   width: 90%;
